@@ -527,11 +527,11 @@ The severity assigned to a finding will reflect its realistic security impact, l
 
 ---
 
-# 🧮 Risk Evaluation Factors
+# Risk Evaluation Factors
 
 Each confirmed finding will be evaluated using technical and contextual factors.
 
-### 📈 Likelihood
+### Likelihood
 
 - Ease of reproduction
 - Required access
@@ -540,7 +540,7 @@ Each confirmed finding will be evaluated using technical and contextual factors.
 - Availability of the attack path
 - Required user interaction
 
-### ⚠️ Impact
+### Impact
 
 - Data exposure
 - Account compromise
@@ -550,7 +550,7 @@ Each confirmed finding will be evaluated using technical and contextual factors.
 - Potential business consequences
 - Security-control bypass
 
-### 📊 Overall Risk
+### Overall Risk
 
 ```text
              Likelihood
@@ -562,7 +562,7 @@ Each confirmed finding will be evaluated using technical and contextual factors.
                   ▼
          Overall Risk Rating
 ```
-# 🔗 Vulnerability Relationship Analysis
+# Vulnerability Relationship Analysis
 
 Individual findings will also be reviewed to determine whether multiple weaknesses could interact and create a greater security impact.
 
